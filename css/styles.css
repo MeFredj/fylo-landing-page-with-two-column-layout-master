@@ -452,6 +452,7 @@ ul {
   .review-upper {
     order: 1;
     margin: 0;
+    align-self: center;
   }
 
   .review-upper img {
@@ -459,6 +460,7 @@ ul {
   }
 
   .review-bottom {
+    margin:initial;
     margin-right: 50px;
   }
 
