@@ -87,12 +87,8 @@ nav {
 
 /* get started */
 .get-started {
-  padding: 75px 24px 155px;
+  padding: 75px 24px px;
   text-align: center;
-  background-image: url(/images/bg-curve-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100vw;
 }
 
 .get-started img {
@@ -143,7 +139,9 @@ nav {
 /* *********REVIEW********* */
 .review {
   padding: 80px 24px 30px;
-  background-color: var(--light-grayish-blue);
+  background-image: linear-gradient(var(--light-grayish-blue), var(--light-grayish-blue));
+  border-top-left-radius: 100% 15%;
+  border-top-right-radius: 100% 15%;
 }
 
 .review-upper {
@@ -388,10 +386,6 @@ ul {
   }
 
   /* get started */
-  .get-started {
-    background-image: url(/images/bg-curve-desktop.svg);
-  }
-
   .get-started-width {
     max-width: 1440px;
     justify-content: center;
